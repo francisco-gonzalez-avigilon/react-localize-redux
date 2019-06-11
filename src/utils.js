@@ -172,7 +172,7 @@ export const storeDidChange = (
   let currentState;
 
   function handleChange() {
-    const nextState = store.getState();
+    const nextState = store.getState().localize;
     if (nextState !== currentState) {
       onChange(currentState);
       currentState = nextState;

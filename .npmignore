@@ -10,7 +10,6 @@ docs
 examples
 flow-typed
 site
-src
 tests
 
 .babelrc
